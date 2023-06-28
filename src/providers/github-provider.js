@@ -1,4 +1,4 @@
-import React, { Children, createContext, useCallback, useState } from 'react'
+import React, { createContext, useCallback, useState } from 'react'
 import api from '../services/ApiGitHub'
 
 export const GithubContext = createContext ({
